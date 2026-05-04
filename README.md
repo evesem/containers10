@@ -204,6 +204,8 @@ docker-compose up --build
 docker scout quickview containers10-backend
 ```
 
+![alt text](image-1.png)
+
 ## 14. Минимальная проверка
 
 В контейнере backend:
@@ -215,7 +217,8 @@ cat /run/secrets/secret
 ```
 
 ## 15. Результат
-backend подключается к БД
-пароли не в env
-используются /run/secrets/*
-контейнер работает
+
+- backend подключается к БД
+- пароли не в env
+- используются /run/secrets/*
+- контейнер работает
